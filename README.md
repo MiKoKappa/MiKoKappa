@@ -1,7 +1,9 @@
 <h1 align="center">Hi 👋, I'm Mikołaj Tkaczyk</h1>
-<h3 align="center">A junior web developer from Poland</h3>
+<h3 align="center">A senior R&D specialist from Poland</h3>
 
-- I'm most comfortable with **React, Sass or Styled-Components, Framer Motion or GSAP,  Node.js**
+- Working mainly in JS - **Node.js, Node-RED**
+- Automating many things with **Python**
+- In web-dev I'm most comfortable with **React, Sass or Styled-Components, Framer Motion or GSAP**
 - In free time obsessed with experimenting with IoT devices :globe_with_meridians:
 - Formerly working as a freelancer with Wordpress
 
