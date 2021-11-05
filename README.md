@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mikołaj Tkaczyk</h1>
-<h3 align="center">A senior R&D specialist from Poland</h3>
+<h3 align="center">A senior R&D specialist in Orange Innovation Poland</h3>
 
 - Working mainly in JS - **Node.js, Node-RED**
 - Automating many things with **Python**
