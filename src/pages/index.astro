@@ -10,40 +10,38 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
-	<body>
+	<body class="bg-black">
 		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+		<main class="container mx-auto">
+			<video src="Tkaczyk-profile.mov" class="absolute left-1/2 -translate-x-1/2 min-h-screen -z-50" muted autoplay loop class="mx-auto"/>
+			<div class="min-w-full min-h-screen flex flex-col items-end justify-end pb-32">
+				<div class="flex flex-row items-center justify-end w-full ">
+					<div class="justify-self-start flex-grow">
+						<h3 class="text-neutral-500 rotate-90 inline-block font-display text-4xl -translate-y-20 -translate-x-28 opacity-30">@2024 <i>|</i> PL <i>|</i> WAW</h3>
+					</div>
+					<div class="text-end">
+						<h3 class="text-neutral-500 font-body text-5xl uppercase font-extralight opacity-30">R&D Expert</h3>
+						<h3 class="text-neutral-500 font-display text-8xl uppercase font-extralight opacity-70">
+							Turning ideas
+						</h3>
+						<h3 class="text-neutral-500 font-display text-7xl uppercase font-extralight opacity-70">
+							into <span class="text-cyan-500">reality<span class="animate-ping">_</span></span>
+						</h3>
+					</div>
+					<div class="flex flex-row items-center ml-5 opacity-30">
+						<div class="h-52 w-1 bg-neutral-500"/>
+						<div class="h-1 w-10 bg-neutral-500"/>
+					</div>
+				</div>
+				<div class="text-neutral-500 w-full text-center mt-16">
+					<a href="/">
+						<svg class="mx-auto" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M17.5001 8.08582L12.0002 13.5858L6.50015 8.08582L5.08594 9.50003L12.0002 16.4142L18.9144 9.50003L17.5001 8.08582Z" fill="currentColor"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+			
 		</main>
 		<Footer />
 	</body>
