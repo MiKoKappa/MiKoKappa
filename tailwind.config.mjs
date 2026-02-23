@@ -6,7 +6,14 @@ export default {
 			'display': ["Chakra Petch", 'system-ui'],
 			'body': ["Questrial", 'sans-serif'],
 		},
-		extend: {},
+		extend: {
+			colors: {
+				custom: {
+					light: "#cdcac5",
+					dark: "#383838"
+				}
+			}
+		},
 	},
 	plugins: [],
 }
