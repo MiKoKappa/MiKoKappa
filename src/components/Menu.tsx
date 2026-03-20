@@ -79,7 +79,7 @@ export default function FullscreenMenu() {
             <a
               key={label}
               href={`/${label != "Home" ? label.toLowerCase() : ""}`}
-              ref={(el) => (itemsRef.current[i] = el)}
+              ref={(el) => { itemsRef.current[i] = el; }}
               onClick={() => setIsOpen(false)}
               className="block"
             >
