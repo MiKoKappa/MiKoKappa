@@ -2,15 +2,15 @@
 const {post, isMain, url} = Astro.props;
 ---
 
-<div class="w-full bg-custom-light bg-opacity-10 p-6">
-    <div class="flex flex-row items-baseline justify-between mb-6">
-        <h5 class="text-2xl font-display">{post.data.title}</h5>
-        <h6>{post.data.minRead} min <span class="opacity-50">to read</span></h6>
+<div class="w-full bg-custom-light bg-opacity-10 p-3 md:p-6">
+    <div class="flex flex-row items-baseline justify-between mb-3 md:mb-6">
+        <h5 class="text-lg md:text-2xl font-display">{post.data.title}</h5>
+        <h6 class="text-xs md:text-sm">{post.data.minRead} min <span class="opacity-50">to read</span></h6>
     </div>
-    <p class="font-body text-xl">{post.data.description}</p>
-    <div class="flex flex-row justify-between gap-6 items-center mt-6">
+    <p class="font-body text-sm md:text-xl">{post.data.description}</p>
+    <div class="flex flex-row justify-between gap-4 md:gap-6 items-center mt-3 md:mt-6">
         <div style="height: 2px" class="flex-grow bg-custom-light opacity-30"/>
-        <a href={url} class="-skew-x-12 bg-custom-dark cursor-pointer hover:bg-custom-light transition-color text-custom-light hover:text-custom-dark duration-300 font-display font-medium text-lg">
+        <a href={url} class="-skew-x-12 bg-custom-dark cursor-pointer hover:bg-custom-light transition-color text-custom-light hover:text-custom-dark duration-300 font-display font-medium text-sm md:text-lg">
             <div class="skew-x-12 mx-2"><span class="opacity-30">&gt;</span> READ MORE</div>
         </a>
     </div>

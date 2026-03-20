@@ -1,62 +1,115 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage="/blog-placeholder-about.jpg"
->
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
-
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
-
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
-
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
-
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
-</Layout>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="About - Mikołaj Tkaczyk" description="R&D Expert at Orange Innovation Poland - About Me" />
+	</head>
+	<body>
+		<Header />
+		<main class="container mx-auto px-4 md:px-6">
+			<div class="min-w-full flex flex-col items-start justify-start pb-12 md:pb-20 pt-12 md:pt-20">
+				<div class="w-full flex flex-row items-center justify-between">
+					<p class="font-display text-sm md:text-xl font-bold text-custom-dark">&#9737; <span class="opacity-30">\</span> &#9783; <span class="opacity-30">\</span> &#9826;</p>
+					<p class="text-end font-display text-xs md:text-xl font-bold text-custom-dark">	<span class="opacity-30">&#172;</span> ABOUT <span class="opacity-30">\</span> PL </p>
+				</div>
+			</div>
+		</main>
+		<div class="-mb-px separator">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="matrix(1,0,0,-1,0,0)"><path d="M 0 0 v 1 l 500 24 l 500 -24 V 0 H 0 z" fill="#383838"></path></svg>
+		</div>
+		<section class="min-h-screen bg-custom-dark mt-0 pt-6 md:pt-8 pb-6 md:pb-8">
+			<div class="container mx-auto px-4 md:px-6">
+				<div class="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 text-custom-light mt-6 md:mt-8">
+					<div class="md:col-span-2 flex flex-col">
+						<div class="md:sticky md:top-24 flex flex-col items-center">
+							<div class="w-40 md:w-56 mx-auto bg-custom-dark bg-opacity-30 mb-4 md:mb-6 overflow-hidden" style="clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);">
+								<img src="/blog_portrait-sorted.webp" alt="Mikołaj Tkaczyk" class="w-full grayscale hover:grayscale-0 transition duration-500" />
+							</div>
+							<div class="flex flex-col items-center gap-3 md:gap-4">
+								<div class="flex items-center gap-2 md:gap-3">
+									<span class="opacity-30">&#9749;</span>
+									<span class="font-display text-sm md:text-lg">Poland, Warsaw</span>
+								</div>
+								<div class="flex flex-col gap-2 mt-2 md:mt-4 text-center">
+									<a href="https://linkedin.com/in/mikołaj-tkaczyk-79bb14195" class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100">
+										<span class="opacity-30">&#10150;</span> LinkedIn
+									</a>
+									<a href="https://github.com" class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100">
+										<span class="opacity-30">&#10150;</span> GitHub
+									</a>
+									<a href="mailto:contact@example.com" class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100">
+										<span class="opacity-30">&#10150;</span> Email
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="md:col-span-3 flex flex-col">
+						<div class="flex items-center gap-2 md:gap-3 mb-6 md:mb-8">
+							<h1 class="font-display text-2xl md:text-4xl text-custom-light uppercase"><span class="opacity-30">&gt;</span> Mikołaj Tkaczyk</h1>
+						</div>
+						<div class="mb-6 md:mb-8">
+							<p class="font-display text-lg md:text-xl text-white font-medium">R&D Expert @ Orange Innovation Poland</p>
+							<p class="font-body text-sm md:text-lg text-custom-light opacity-70 mt-1 md:mt-2">Devoted to integration of new cutting-edge technologies to create innovative solutions.</p>
+						</div>
+						<div class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8">
+							<h2 class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"><span class="opacity-30">&gt;</span> About Me</h2>
+							<div class="font-body text-sm md:text-lg text-justify text-custom-light space-y-4 md:space-y-6">
+								<p>I'm a Research & Development Expert with a passion for turning complex ideas into meaningful solutions. My work bridges the gap between innovation and implementation — shaping systems and services that are not only cutting-edge but intuitive and state-of-the-art.</p>
+								<p>I specialize in designing and delivering solutions that meet today's needs while anticipating tomorrow's challenges. I value clarity, precision, and purpose — whether I'm exploring new technologies, leading a team of developers, or writing a single line of code.</p>
+								<p>Always learning. Always building. Always a step ahead.</p>
+							</div>
+						</div>
+						<div class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8 mt-6 md:mt-8">
+							<h2 class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"><span class="opacity-30">&gt;</span> What I Do</h2>
+							<div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
+								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);">
+									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">Architecture</h3>
+									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Designing scalable, resilient systems that stand the test of time.</p>
+								</div>
+								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);">
+									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">Innovation</h3>
+									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Integrating cutting-edge technologies into real-world solutions.</p>
+								</div>
+								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);">
+									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">DevSecOps</h3>
+									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Building secure, automated pipelines and infrastructure.</p>
+								</div>
+								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);">
+									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">Leadership</h3>
+									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Guiding teams toward technical excellence and innovation.</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8 mt-6 md:mt-8">
+							<h2 class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"><span class="opacity-30">&gt;</span> Currently Working On</h2>
+							<ul class="flex flex-col gap-2 md:gap-3">
+								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Programming K8s - defining controllers and operators</li>
+								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Creating a blog with RSS feed in Astro.js</li>
+								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Homelab K8s cluster with separated ZFS RAID storage</li>
+								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Learning microservices and service mesh patterns</li>
+							</ul>
+						</div>
+						<div class="mt-8 md:mt-12 flex justify-start">
+							<a href="/" class="font-display text-base md:text-xl text-custom-light transition duration-300 ease-in-out hover:opacity-30">
+								&lt; BACK TO HOME <span class="opacity-30">\</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="-mb-px separator">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 25">
+				<path d="M 0 0 v 20 L 310 5 l 310 20 V 0 H 0 z" fill="#383838"/>
+			</svg>
+		</div>
+		<Footer />
+	</body>
+</html>

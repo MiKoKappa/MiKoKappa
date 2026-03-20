@@ -1,17 +1,56 @@
 ---
-title: "Why such a page is there?"
+title: "Why I Started This Blog"
 description: "What made me start blogging, what am I blogging about and what outcome do I want to achieve."
 pubDate: "May 08 2025"
 heroImage: "/first-post.jpg"
-minRead: 3
+minRead: 5
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+In a world where technology evolves at an unprecedented pace, I found myself needing a space to document my journey, share my insights, and connect with like-minded professionals. This blog is the result of that realization.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+## Personal Branding in the Tech Industry
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+The tech industry is competitive. Every day, thousands of developers, architects, and engineers are working on incredible projects, solving complex problems, and pushing the boundaries of what's possible. Yet, so much of this knowledge remains siloed within teams and organizations.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Starting this blog is my way of establishing a professional presence that goes beyond a CV or LinkedIn profile. It's a platform where I can showcase my thinking, demonstrate my expertise, and build credibility in areas I'm passionate about.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Personal branding isn't about self-promotion for the sake of it—it's about creating value. By sharing what I learn, I hope to:
+
+- **Establish thought leadership** in areas like system design, DevSecOps, and cloud architecture
+- **Connect with peers** who share similar interests and challenges
+- **Document my growth** as a technologist and leader
+
+## Sharing Knowledge: A Two-Way Street
+
+One of the most powerful aspects of the tech community is its openness to knowledge sharing. I've learned so much from blogs, open-source projects, conference talks, and community discussions. This blog is my way of giving back.
+
+But sharing knowledge isn't just about contributing—it's also about learning. Writing forces you to solidify your understanding. When I explain a concept here, I'm not just teaching—I'm also discovering gaps in my own knowledge and refining my thinking.
+
+## What You'll Find Here
+
+This blog will cover topics that intersect with my work and interests:
+
+- **System Design** — Architectural patterns, scalability considerations, and trade-offs
+- **DevSecOps** — Building secure, automated pipelines and infrastructure
+- **Kubernetes & Cloud Native** — Container orchestration, operators, and cloud platforms
+- **Innovation** — Exploring new technologies and their practical applications
+- **Leadership** — Lessons learned from leading technical teams
+
+## The Outcome I'm Looking For
+
+I'm not writing this blog to go viral or accumulate followers. My goals are more pragmatic:
+
+1. **Clarity** — Writing helps me organize my thoughts and articulate complex ideas
+2. **Connection** — I hope to meet others who are passionate about similar topics
+3. **Growth** — Both personal and professional development through consistent learning
+4. **Legacy** — A collection of thoughts that might help others on their journey
+
+## Join the Conversation
+
+If you're reading this, I'd love to hear from you. Whether you have questions, want to debate a technical point, or just want to say hello—reach out. This blog is as much about community as it is about content.
+
+Thank you for being here. Let's learn together.
+
+---
+
+*This is just the beginning. Stay tuned for more posts as I explore the ever-evolving world of technology.*
