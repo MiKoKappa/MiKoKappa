@@ -4,7 +4,7 @@ import gsap from "gsap";
 export default function FullscreenMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
-  const itemsRef = useRef([]);
+  const itemsRef = useRef<(HTMLAnchorElement | null)[]>([]);
 
   // Animation logic
   useEffect(() => {
