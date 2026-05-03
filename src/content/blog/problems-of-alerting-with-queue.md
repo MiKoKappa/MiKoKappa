@@ -3,6 +3,7 @@ title: "Problems of Alerting with Message Queues"
 description: "Why building an alerting system with message queues isn't as straightforward as it sounds."
 pubDate: "May 03 2026"
 heroImage: "/alerting-message-queues.jpg"
+ogImage: "/alerting-message-queues_og.png"
 minRead: 7
 ---
 
