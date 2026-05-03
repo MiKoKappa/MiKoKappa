@@ -1,115 +1,264 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title="About - Mikołaj Tkaczyk" description="R&D Expert at Orange Innovation Poland - About Me" />
-	</head>
-	<body>
-		<Header />
-		<main class="container mx-auto px-6 md:px-12 lg:px-20">
-			<div class="min-w-full flex flex-col items-start justify-start pb-12 md:pb-20 pt-12 md:pt-20">
-				<div class="w-full flex flex-row items-center justify-between">
-					<p class="font-display text-sm font-bold text-custom-dark">&#9737; <span class="opacity-30">\</span> &#9783; <span class="opacity-30">\</span> &#9826;</p>
-					<p class="text-end font-display text-xs md:text-sm font-bold text-custom-dark">	<span class="opacity-30">&#172;</span> ABOUT <span class="opacity-30">\</span> PL </p>
-				</div>
-			</div>
-		</main>
-		<div class="-mb-px separator">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="matrix(1,0,0,-1,0,0)"><path d="M 0 0 v 1 l 500 24 l 500 -24 V 0 H 0 z" fill="#383838"></path></svg>
-		</div>
-		<section class="min-h-screen bg-custom-dark mt-0 pt-6 md:pt-8 pb-6 md:pb-8">
-			<div class="container mx-auto px-6 md:px-12 lg:px-20">
-				<div class="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 text-custom-light mt-6 md:mt-8">
-					<div class="md:col-span-2 flex flex-col">
-						<div class="md:sticky md:top-24 flex flex-col items-center">
-							<div class="w-40 md:w-56 mx-auto bg-custom-dark bg-opacity-30 mb-4 md:mb-6 overflow-hidden" style="clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);">
-								<img src="/blog_portrait-sorted.webp" alt="Mikołaj Tkaczyk" class="w-full grayscale hover:grayscale-0 transition duration-500" />
-							</div>
-							<div class="flex flex-col items-center gap-3 md:gap-4">
-								<div class="flex items-center gap-2 md:gap-3">
-									<span class="opacity-30">&#9749;</span>
-									<span class="font-display text-sm md:text-lg">Poland, Warsaw</span>
-								</div>
-								<div class="flex flex-col gap-2 mt-2 md:mt-4 text-center">
-									<a href="https://linkedin.com/in/mikołaj-tkaczyk-79bb14195" class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100">
-										<span class="opacity-30">&#10150;</span> LinkedIn
-									</a>
-									<a href="https://github.com" class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100">
-										<span class="opacity-30">&#10150;</span> GitHub
-									</a>
-									<a href="mailto:contact@example.com" class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100">
-										<span class="opacity-30">&#10150;</span> Email
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="md:col-span-3 flex flex-col">
-						<div class="flex items-center gap-2 md:gap-3 mb-6 md:mb-8">
-							<h1 class="font-display text-2xl md:text-4xl text-custom-light uppercase"><span class="opacity-30">&gt;</span> Mikołaj Tkaczyk</h1>
-						</div>
-						<div class="mb-6 md:mb-8">
-							<p class="font-display text-base md:text-lg text-white font-medium">R&D Expert @ Orange Innovation Poland</p>
-							<p class="font-body text-sm md:text-lg text-custom-light opacity-70 mt-1 md:mt-2">Devoted to integration of new cutting-edge technologies to create innovative solutions.</p>
-						</div>
-						<div class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8">
-							<h2 class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"><span class="opacity-30">&gt;</span> About Me</h2>
-							<div class="font-body text-sm md:text-lg text-justify text-custom-light space-y-4 md:space-y-6">
-								<p>I'm a Research & Development Expert with a passion for turning complex ideas into meaningful solutions. My work bridges the gap between innovation and implementation — shaping systems and services that are not only cutting-edge but intuitive and state-of-the-art.</p>
-								<p>I specialize in designing and delivering solutions that meet today's needs while anticipating tomorrow's challenges. I value clarity, precision, and purpose — whether I'm exploring new technologies, leading a team of developers, or writing a single line of code.</p>
-								<p>Always learning. Always building. Always a step ahead.</p>
-							</div>
-						</div>
-						<div class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8 mt-6 md:mt-8">
-							<h2 class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"><span class="opacity-30">&gt;</span> What I Do</h2>
-							<div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
-								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);">
-									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">Architecture</h3>
-									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Designing scalable, resilient systems that stand the test of time.</p>
-								</div>
-								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);">
-									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">Innovation</h3>
-									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Integrating cutting-edge technologies into real-world solutions.</p>
-								</div>
-								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);">
-									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">DevSecOps</h3>
-									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Building secure, automated pipelines and infrastructure.</p>
-								</div>
-								<div class="bg-custom-dark bg-opacity-50 p-3 md:p-6" style="clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);">
-									<h3 class="font-display text-lg md:text-xl text-white mb-1 md:mb-2">Leadership</h3>
-									<p class="font-body text-xs md:text-sm text-custom-light opacity-70">Guiding teams toward technical excellence and innovation.</p>
-								</div>
-							</div>
-						</div>
-						<div class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8 mt-6 md:mt-8">
-							<h2 class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"><span class="opacity-30">&gt;</span> Currently Working On</h2>
-							<ul class="flex flex-col gap-2 md:gap-3">
-								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Programming K8s - defining controllers and operators</li>
-								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Creating a blog with RSS feed in Astro.js</li>
-								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Homelab K8s cluster with separated ZFS RAID storage</li>
-								<li class="font-body text-sm md:text-lg text-custom-light"><span class="opacity-30">&#10095;</span> Learning microservices and service mesh patterns</li>
-							</ul>
-						</div>
-						<div class="mt-8 md:mt-12 flex justify-start">
-							<a href="/" class="font-display text-sm md:text-base text-custom-light transition duration-300 ease-in-out hover:opacity-30">
-								&lt; BACK TO HOME <span class="opacity-30">\</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="-mb-px separator">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 25">
-				<path d="M 0 0 v 20 L 310 5 l 310 20 V 0 H 0 z" fill="#383838"/>
-			</svg>
-		</div>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead
+      title="About - Mikołaj Tkaczyk"
+      description="R&D Expert at Orange Innovation Poland - About Me"
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="container mx-auto px-6 md:px-12 lg:px-20">
+      <div
+        class="min-w-full flex flex-col items-start justify-start pb-12 md:pb-20 pt-12 md:pt-20"
+      >
+        <div class="w-full flex flex-row items-center justify-between">
+          <p class="font-display text-sm font-bold text-custom-dark">
+            &#9737; <span class="opacity-30">\</span> &#9783; <span
+              class="opacity-30">\</span
+            > &#9826;
+          </p>
+          <p
+            class="text-end font-display text-xs md:text-sm font-bold text-custom-dark"
+          >
+            <span class="opacity-30">&#172;</span> ABOUT <span
+              class="opacity-30">\</span
+            > PL
+          </p>
+        </div>
+      </div>
+    </main>
+    <div class="-mb-px separator">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 25"
+        version="1.1"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        transform="matrix(1,0,0,-1,0,0)"
+        ><path d="M 0 0 v 1 l 500 24 l 500 -24 V 0 H 0 z" fill="#383838"
+        ></path></svg
+      >
+    </div>
+    <section class="min-h-screen bg-custom-dark mt-0 pt-6 md:pt-8 pb-6 md:pb-8">
+      <div class="container mx-auto px-6 md:px-12 lg:px-20">
+        <div
+          class="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 text-custom-light mt-6 md:mt-8"
+        >
+          <div class="md:col-span-2 flex flex-col">
+            <div class="md:sticky md:top-24 flex flex-col items-center">
+              <div
+                class="w-40 md:w-56 mx-auto bg-custom-dark bg-opacity-30 mb-4 md:mb-6 overflow-hidden"
+                style="clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);"
+              >
+                <img
+                  src="/blog_portrait-sorted.webp"
+                  alt="Mikołaj Tkaczyk"
+                  class="w-full grayscale hover:grayscale-0 transition duration-500"
+                />
+              </div>
+              <div class="flex flex-col items-center gap-3 md:gap-4">
+                <div class="flex items-center gap-2 md:gap-3">
+                  <span class="opacity-30">&#9749;</span>
+                  <span class="font-display text-sm md:text-lg"
+                    >Poland, Warsaw</span
+                  >
+                </div>
+                <div class="flex flex-col gap-2 mt-2 md:mt-4 text-center">
+                  <a
+                    href="https://linkedin.com/in/mikołaj-tkaczyk-79bb14195"
+                    class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100"
+                  >
+                    <span class="opacity-30">&#10150;</span> LinkedIn
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100"
+                  >
+                    <span class="opacity-30">&#10150;</span> GitHub
+                  </a>
+                  <a
+                    href="mailto:kontakt@tkaczykm.pl"
+                    class="font-display text-sm md:text-lg text-custom-light hover:text-white transition duration-300 opacity-70 hover:opacity-100"
+                  >
+                    <span class="opacity-30">&#10150;</span> Email
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:col-span-3 flex flex-col">
+            <div class="flex items-center gap-2 md:gap-3 mb-6 md:mb-8">
+              <h1
+                class="font-display text-2xl md:text-4xl text-custom-light uppercase"
+              >
+                <span class="opacity-30">&gt;</span> Mikołaj Tkaczyk
+              </h1>
+            </div>
+            <div class="mb-6 md:mb-8">
+              <p
+                class="font-display text-base md:text-lg text-white font-medium"
+              >
+                R&D Expert @ Orange Innovation Poland
+              </p>
+              <p
+                class="font-body text-sm md:text-lg text-custom-light opacity-70 mt-1 md:mt-2"
+              >
+                Devoted to integration of new cutting-edge technologies to
+                create innovative solutions.
+              </p>
+            </div>
+            <div
+              class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8"
+            >
+              <h2
+                class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"
+              >
+                <span class="opacity-30">&gt;</span> About Me
+              </h2>
+              <div
+                class="font-body text-sm md:text-lg text-justify text-custom-light space-y-4 md:space-y-6"
+              >
+                <p>
+                  I'm a Research & Development Expert with a passion for turning
+                  complex ideas into meaningful solutions. My work bridges the
+                  gap between innovation and implementation — shaping systems
+                  and services that are not only cutting-edge but intuitive and
+                  state-of-the-art.
+                </p>
+                <p>
+                  I specialize in designing and delivering solutions that meet
+                  today's needs while anticipating tomorrow's challenges. I
+                  value clarity, precision, and purpose — whether I'm exploring
+                  new technologies, leading a team of developers, or writing a
+                  single line of code.
+                </p>
+                <p>Always learning. Always building. Always a step ahead.</p>
+              </div>
+            </div>
+            <div
+              class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8 mt-6 md:mt-8"
+            >
+              <h2
+                class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"
+              >
+                <span class="opacity-30">&gt;</span> What I Do
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
+                <div
+                  class="bg-custom-dark bg-opacity-50 p-3 md:p-6"
+                  style="clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);"
+                >
+                  <h3
+                    class="font-display text-lg md:text-xl text-white mb-1 md:mb-2"
+                  >
+                    Architecture
+                  </h3>
+                  <p
+                    class="font-body text-xs md:text-sm text-custom-light opacity-70"
+                  >
+                    Designing scalable, resilient systems that stand the test of
+                    time.
+                  </p>
+                </div>
+                <div
+                  class="bg-custom-dark bg-opacity-50 p-3 md:p-6"
+                  style="clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);"
+                >
+                  <h3
+                    class="font-display text-lg md:text-xl text-white mb-1 md:mb-2"
+                  >
+                    Innovation
+                  </h3>
+                  <p
+                    class="font-body text-xs md:text-sm text-custom-light opacity-70"
+                  >
+                    Integrating cutting-edge technologies into real-world
+                    solutions.
+                  </p>
+                </div>
+                <div
+                  class="bg-custom-dark bg-opacity-50 p-3 md:p-6"
+                  style="clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);"
+                >
+                  <h3
+                    class="font-display text-lg md:text-xl text-white mb-1 md:mb-2"
+                  >
+                    DevSecOps
+                  </h3>
+                  <p
+                    class="font-body text-xs md:text-sm text-custom-light opacity-70"
+                  >
+                    Building secure, automated pipelines and infrastructure.
+                  </p>
+                </div>
+                <div
+                  class="bg-custom-dark bg-opacity-50 p-3 md:p-6"
+                  style="clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);"
+                >
+                  <h3
+                    class="font-display text-lg md:text-xl text-white mb-1 md:mb-2"
+                  >
+                    Leadership
+                  </h3>
+                  <p
+                    class="font-body text-xs md:text-sm text-custom-light opacity-70"
+                  >
+                    Guiding teams toward technical excellence and innovation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="border-t border-custom-light border-opacity-30 pt-6 md:pt-8 mt-6 md:mt-8"
+            >
+              <h2
+                class="font-display text-xl md:text-2xl text-custom-light mb-4 md:mb-6"
+              >
+                <span class="opacity-30">&gt;</span> Currently Working On
+              </h2>
+              <ul class="flex flex-col gap-2 md:gap-3">
+                <li class="font-body text-sm md:text-lg text-custom-light">
+                  <span class="opacity-30">&#10095;</span> Programming K8s - defining
+                  controllers and operators
+                </li>
+                <li class="font-body text-sm md:text-lg text-custom-light">
+                  <span class="opacity-30">&#10095;</span> Creating a blog with RSS
+                  feed in Astro.js
+                </li>
+                <li class="font-body text-sm md:text-lg text-custom-light">
+                  <span class="opacity-30">&#10095;</span> Homelab K8s cluster with
+                  separated ZFS RAID storage
+                </li>
+                <li class="font-body text-sm md:text-lg text-custom-light">
+                  <span class="opacity-30">&#10095;</span> Learning microservices
+                  and service mesh patterns
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8 md:mt-12 flex justify-start">
+              <a
+                href="/"
+                class="font-display text-sm md:text-base text-custom-light transition duration-300 ease-in-out hover:opacity-30"
+              >
+                &lt; BACK TO HOME <span class="opacity-30">\</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="-mb-px separator">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 25">
+        <path d="M 0 0 v 20 L 310 5 l 310 20 V 0 H 0 z" fill="#383838"></path>
+      </svg>
+    </div>
+    <Footer />
+  </body>
 </html>

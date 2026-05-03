@@ -187,5 +187,5 @@ body {
       rgba(56, 56, 56, 0.3) 87.5%,
       rgba(56, 56, 56, 1) 100%
     ),
-    url("geo_pattern.svg");
+    url("/geo_pattern.svg");
 }

@@ -1,7 +1,7 @@
 ---
 title: "Why I Started This Blog"
 description: "What made me start blogging, what am I blogging about and what outcome do I want to achieve."
-pubDate: "May 08 2025"
+pubDate: "Jan 08 2026"
 heroImage: "/first-post.jpg"
 minRead: 5
 ---
@@ -53,4 +53,4 @@ Thank you for being here. Let's learn together.
 
 ---
 
-*This is just the beginning. Stay tuned for more posts as I explore the ever-evolving world of technology.*
+_This is just the beginning. Stay tuned for more posts as I explore the ever-evolving world of technology._
